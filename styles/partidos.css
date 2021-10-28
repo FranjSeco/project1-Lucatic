@@ -1,32 +1,71 @@
 /*Hoja de estilos*/
-body{
+@import url(./colors.css);
+
+body {
     display: grid;
 }
 
-header{
+header {
     grid-column: 1;
     grid-row: 1;
     border: 1px black solid;
     padding: 1%;
 }
 
-.section1{
+.section1 {
     grid-column: 1;
     grid-row: 2;
     border: 1px black solid;
     padding: 1%;
 }
 
-.section2{
+.section2 {
     grid-column: 1;
     grid-row: 3;
     border: 1px black solid;
     padding: 1%;
 }
 
-footer{
+footer {
     grid-column: 1;
     grid-row: 4;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: var(--main-rojo);
+    font-size: 30px;
+}
+
+.box1{
+    display: flex;
+}
+
+.child1{
+    flex: 1;
+    border: 1px black solid;
+    padding: 1%;
+}
+.child2{
+    flex: 2;
+    border: 1px black solid;
+    padding: 1%;
+}
+.child3{
+    flex: 1;
+    border: 1px black solid;
+    padding: 1%;
+}
+.child4{
+    flex: 2;
+    border: 1px black solid;
+    padding: 1%;
+}
+.child5{
+    flex: 1;
     border: 1px black solid;
     padding: 1%;
 }
