@@ -1,0 +1,9 @@
+/* GLOBAL STYLES */
+
+.section__title {
+  color: var(--main-rojo);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 60px 0;
+}
