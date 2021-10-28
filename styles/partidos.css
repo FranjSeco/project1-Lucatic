@@ -170,3 +170,38 @@ th,tr,td{
 .en2:hover{
     color: var(--main-rojo);
 }
+
+.box2{
+    display: flex;
+}
+
+.ch1{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1%;
+}
+.ch2{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1%;
+}
+.ch3{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1%;
+}
+.ch4{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1%;
+}
+.ch5{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1%;
+}
+.ch6{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1%;
+}
