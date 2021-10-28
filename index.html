@@ -1,325 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles.css">
-
-</head>
-
-<body>
-
-  <header class="header">
-    <div class="contact__border">
-      <div class="header__contact">
-        <div class="header__wrapperOne">
-          <div class="header__telephone">
-            <div class="header__telephone-img"></div>(12) 345 67890
+  <body>
+    <header class="header">
+      <div class="contact__border">
+        <div class="header__contact">
+          <div class="header__wrapperOne">
+            <div class="header__telephone">
+              <div class="header__telephone-img"></div>
+              (12) 345 67890
+            </div>
+            <div class="header__email">
+              <div class="header__email-img"></div>
+              info.colorlib@gmail.com
+            </div>
           </div>
-          <div class="header__email">
-            <div class="header__email-img"></div> info.colorlib@gmail.com
+
+          <div class="header__wrapperTwo">
+            <ul class="header__icons-wrapper">
+              <li class="">
+                <div class="icon__wrapper icon__facebook"></div>
+              </li>
+              <li class="">
+                <div class="icon__wrapper icon__twitter"></div>
+              </li>
+              <li class="">
+                <div class="icon__wrapper icon__amazon"></div>
+              </li>
+              <li class="">
+                <div class="icon__wrapper icon__instagram"></div>
+              </li>
+            </ul>
+            <div class="header__booking">Booking Now</div>
+
+            <div class="header__language">
+              <img
+                class="header__language-flag"
+                src="./images/download.webp"
+                alt="English flag"
+              />
+              <select id="lang" name="lang" class="heander__lang-selector">
+                <option value="1">EN</option>
+                <option value="2">ES</option>
+              </select>
+            </div>
           </div>
         </div>
+      </div>
+      <nav class="nav">
+        <div class="nav__logo"><img src="./images/Sona.png" alt="" /></div>
+        <ul class="nav__menu-wrapper">
+          <li class="nav__menu-item"><a href="./index.html">Home</a></li>
+          <li class="nav__menu-item">Rooms</li>
+          <li class="nav__menu-item">About Us</li>
+          <li class="nav__menu-item">Pages</li>
+          <li class="nav__menu-item">News</li>
+          <li class="nav__menu-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="nav__search"></div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main__overlay"></div>
+      <div class="main__wrapper">
+        <div class="main__text">
+          <h1 class="main__title">Sona A Luxury Hotel</h1>
+          <p class="main__info">
+            Here are the best hotel booking sites, including recommendations for
+            international travel and for finding low-priced hotel rooms.
+          </p>
+          <button class="main__btn">Discover Now</button>
+        </div>
+        <div class="main__formulario">
+          <h2 class="main__form-title">Booking Your Hotel</h2>
+          <form action="#" method="get">
+            <label for="checkin" class="form__label">Check in:</label>
+            <input
+              type="date"
+              class="form__input"
+              id="checkin"
+              name="checkin"
+            />
+            <label for="checkout" class="form__label">Check in:</label>
+            <input
+              type="date"
+              class="form__input"
+              id="checkout"
+              name="checkout"
+            />
 
-        <div class="header__wrapperTwo">
-          <ul class="header__icons-wrapper">
-            <li class="">
-              <div class="icon__wrapper icon__facebook"></div>
-            </li>
-            <li class="">
-              <div class="icon__wrapper icon__twitter"></div>
-            </li>
-            <li class="">
-              <div class="icon__wrapper icon__amazon"></div>
-            </li>
-            <li class="">
-              <div class="icon__wrapper icon__instagram"></div>
-            </li>
-          </ul>
-          <div class="header__booking">
-            Booking Now
-          </div>
-
-          <div class="header__language">
-            <img class="header__language-flag" src="./images/download.webp" alt="English flag">
-            <select id="lang" name="lang" class="heander__lang-selector">
-              <option value="1">EN</option>
-              <option value="2">ES</option>
+            <label for="guest">Guest:</label>
+            <select id="guest" name="cars" class="form__input">
+              <option value="2">2 Guest</option>
+              <option value="3">3 Guest</option>
             </select>
+            <select id="room" name="room" class="form__input">
+              <option value="1">1 Room</option>
+              <option value="2">2 Rooms</option>
+            </select>
+            <button type="submit" class="form__btn">Check Availability</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <section class="about">
+      <div class="about__wrapper">
+        <div class="about__info">
+          <p class="about__info-us">About Us</p>
+          <h2 class="about__title">Intercontinental LA Westlake Hotel</h2>
+          <p class="about__text">
+            Sona.com is a leading online accommodation site. We’re passionate
+            about travel. Every day, we inspire and reach millions of travelers
+            across 90 local websites in 41 languages.
+          </p>
+          <p class="about__text">
+            So when it comes to booking the perfect hotel, vacation rental,
+            resort, apartment, guest house, or tree house, we’ve got you
+            covered.
+          </p>
+          <button class="main__btn readMore__btn">Read More</button>
+        </div>
+        <div class="about__image-wrapper">
+          <img
+            src="./images/about1.webp"
+            alt="Foto de una torre del hotel con estilo asiatico, probablemente China"
+          />
+          <img
+            src="./images/about2.webp"
+            alt="Foto de la decoracion interior de un salon comedor"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="whatWeDo">
+      <div class="whatWeDo__title-wrapper">
+        <p class="whatWeDo__text">What we do</p>
+        <h2 class="whatWeDo__title">Discover Our Services</h2>
+        <div class="whatWeDo__grid-wrapper">
+          <div class="whatWeDo__card">
+            <img
+              class="whatWeDo__card-image"
+              src="./images/atom-solid.svg"
+              alt="Icono de cada servicio"
+            />
+            <h3 class="whatWeDo__card-title">Travel Plan</h3>
+            <p class="whatWeDo__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <div class="whatWeDo__card">
+            <img
+              class="whatWeDo__card-image"
+              src="./images/atom-solid.svg"
+              alt="Icono de cada servicio"
+            />
+            <h3 class="whatWeDo__card-title">Travel Plan</h3>
+            <p class="whatWeDo__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <div class="whatWeDo__card">
+            <img
+              class="whatWeDo__card-image"
+              src="./images/atom-solid.svg"
+              alt="Icono de cada servicio"
+            />
+            <h3 class="whatWeDo__card-title">Travel Plan</h3>
+            <p class="whatWeDo__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <div class="whatWeDo__card">
+            <img
+              class="whatWeDo__card-image"
+              src="./images/atom-solid.svg"
+              alt="Icono de cada servicio"
+            />
+            <h3 class="whatWeDo__card-title">Travel Plan</h3>
+            <p class="whatWeDo__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <div class="whatWeDo__card">
+            <img
+              class="whatWeDo__card-image"
+              src="./images/atom-solid.svg"
+              alt="Icono de cada servicio"
+            />
+            <h3 class="whatWeDo__card-title">Travel Plan</h3>
+            <p class="whatWeDo__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <div class="whatWeDo__card">
+            <img
+              class="whatWeDo__card-image"
+              src="./images/atom-solid.svg"
+              alt="Icono de cada servicio"
+            />
+            <h3 class="whatWeDo__card-title">Travel Plan</h3>
+            <p class="whatWeDo__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-    <nav class="nav">
-      <div class="nav__logo"><img src="./images/Sona.png" alt=""></div>
-      <ul class="nav__menu-wrapper">
-        <li class="nav__menu-item"><a href="./index.html">Home</a></li>
-        <li class="nav__menu-item">Rooms</li>
-        <li class="nav__menu-item">About Us</li>
-        <li class="nav__menu-item">Pages</li>
-        <li class="nav__menu-item">News</li>
-        <li class="nav__menu-item"><a href="./contact.html">Contact</a></li>
-      </ul>
-      <div class="nav__search"></div>
-    </nav>
-  </header>
-  <main class="main">
-    <div class="main__overlay"></div>
-    <div class="main__wrapper">
-      <div class="main__text">
-        <h1 class="main__title">Sona A Luxury Hotel</h1>
-        <p class="main__info">Here are the best hotel booking sites, including recommendations for international travel
-          and for finding
-          low-priced hotel rooms.
-        </p>
-        <button class="main__btn">Discover Now</button>
-      </div>
-      <div class="main__formulario">
-        <h2 class="main__form-title">Booking Your Hotel</h2>
-        <form action="#" method="get">
-          <label for="checkin" class="form__label">Check in:</label>
-          <input type="date" class="form__input" id="checkin" name="checkin">
-          <label for="checkout" class="form__label">Check in:</label>
-          <input type="date" class="form__input" id="checkout" name="checkout">
-
-          <label for="guest">Guest:</label>
-          <select id="guest" name="cars" class="form__input">
-            <option value="2">2 Guest</option>
-            <option value="3">3 Guest</option>
-          </select>
-          <select id="room" name="room" class="form__input">
-            <option value="1">1 Room</option>
-            <option value="2">2 Rooms</option>
-          </select>
-          <button type="submit" class="form__btn">Check Availability</button>
-        </form>
-      </div>
-    </div>
-  </main>
-  <section class="about">
-    <div class="about__wrapper">
-      <div class="about__info">
-        <p class="about__info-us">About Us</p>
-        <h2 class="about__title">Intercontinental LA
-          Westlake Hotel</h2>
-        <p class="about__text">Sona.com is a leading online accommodation site. We’re passionate about travel. Every
-          day, we inspire and
-          reach millions of travelers across 90 local websites in 41 languages.</p>
-        <p class="about__text">So when it comes to booking the perfect hotel, vacation rental, resort, apartment, guest
-          house, or tree
-          house, we’ve got you covered.</p>
-        <button class="main__btn readMore__btn">Read More</button>
-      </div>
-      <div class="about__image-wrapper">
-        <img src="./images/about1.webp" alt="Foto de una torre del hotel con estilo asiatico, probablemente China">
-        <img src="./images/about2.webp" alt="Foto de la decoracion interior de un salon comedor">
-      </div>
-    </div>
-  </section>
-  <section class="whatWeDo">
-    <div class="whatWeDo__title-wrapper">
-      <p class="whatWeDo__text">What we do</p>
-      <h2 class="whatWeDo__title">Discover Our Services</h2>
-      <div class="whatWeDo__grid-wrapper">
-        <div class="whatWeDo__card">
-          <img class="whatWeDo__card-image" src="./images/atom-solid.svg" alt="Icono de cada servicio">
-          <h3 class="whatWeDo__card-title">Travel Plan</h3>
-          <p class="whatWeDo__card-text">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna.</p>
-        </div>
-        <div class="whatWeDo__card">
-          <img class="whatWeDo__card-image" src="./images/atom-solid.svg" alt="Icono de cada servicio">
-          <h3 class="whatWeDo__card-title">Travel Plan</h3>
-          <p class="whatWeDo__card-text">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna.</p>
-        </div>
-        <div class="whatWeDo__card">
-          <img class="whatWeDo__card-image" src="./images/atom-solid.svg" alt="Icono de cada servicio">
-          <h3 class="whatWeDo__card-title">Travel Plan</h3>
-          <p class="whatWeDo__card-text">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna.</p>
-        </div>
-        <div class="whatWeDo__card">
-          <img class="whatWeDo__card-image" src="./images/atom-solid.svg" alt="Icono de cada servicio">
-          <h3 class="whatWeDo__card-title">Travel Plan</h3>
-          <p class="whatWeDo__card-text">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna.</p>
-        </div>
-        <div class="whatWeDo__card">
-          <img class="whatWeDo__card-image" src="./images/atom-solid.svg" alt="Icono de cada servicio">
-          <h3 class="whatWeDo__card-title">Travel Plan</h3>
-          <p class="whatWeDo__card-text">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna.</p>
-        </div>
-        <div class="whatWeDo__card">
-          <img class="whatWeDo__card-image" src="./images/atom-solid.svg" alt="Icono de cada servicio">
-          <h3 class="whatWeDo__card-title">Travel Plan</h3>
-          <p class="whatWeDo__card-text">
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="rooms">
-    <div class="rooms__wrapper">
-      <div class="rooms__card">
-        <div class="rooms__card-anim">
-          <h3 class="rooms__anim-title">Double Room</h3>
-          <p class="rooms__anim-price"><span class="rooms__anim-price_span">199</span> /Per Night</p>
-          <p class="rooms__anim-text">
-            Size: 30 ft <br />
-            Capacity: Max persion 5<br />
-            Bed: King Beds<br />
-            Services: Wifi, Television, Bathroom ... <br /></p>
-        </div>
-      </div>
-      <div class="rooms__card">
-        <div class="rooms__card-anim">
-          <h3 class="rooms__anim-title">Double Room</h3>
-          <p class="rooms__anim-price"><span class="rooms__anim-price_span">199</span> /Per Night</p>
-          <p class="rooms__anim-text">
-            Size: 30 ft <br />
-            Capacity: Max persion 5<br />
-            Bed: King Beds<br />
-            Services: Wifi, Television, Bathroom ... <br /></p>
-        </div>
-      </div>
-      <div class="rooms__card">
-        <div class="rooms__card-anim">
-          <h3 class="rooms__anim-title">Double Room</h3>
-          <p class="rooms__anim-price"><span class="rooms__anim-price_span">199</span> /Per Night</p>
-          <p class="rooms__anim-text">
-            Size: 30 ft <br />
-            Capacity: Max persion 5<br />
-            Bed: King Beds<br />
-            Services: Wifi, Television, Bathroom ... <br /></p>
-        </div>
-      </div>
-      <div class="rooms__card">
-        <div class="rooms__card-anim">
-          <h3 class="rooms__anim-title">Double Room</h3>
-          <p class="rooms__anim-price"><span class="rooms__anim-price_span">199</span> /Per Night</p>
-          <p class="rooms__anim-text">
-            Size: 30 ft <br />
-            Capacity: Max persion 5<br />
-            Bed: King Beds<br />
-            Services: Wifi, Television, Bathroom ... <br /></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="news">
-    <p class="news__text">Hotels News</p>
-    <h2 class="news__title">Our Blog & Event</h2>
-
-    <div class="news__grid-wrapper">
-      <div class="news__image1">
-        <div class="news__info">
-          <p class="news__info-text">Travel Trip</p>
-          <h3 class="news__info-title">Tremblant in Canada</h3>
-          <p class="news__info-date">15TH APRIL, 2019</p>
-        </div>
-      </div>
-      <div class="news__image2">
-        <div class="news__info">
-          <p class="news__info-text">Travel Trip</p>
-          <h3 class="news__info-title">Tremblant in Canada</h3>
-          <p class="news__info-date">15TH APRIL, 2019</p>
-        </div>
-      </div>
-      <div class="news__image3">
-        <div class="news__info">
-          <p class="news__info-text">Travel Trip</p>
-          <h3 class="news__info-title">Tremblant in Canada</h3>
-          <p class="news__info-date">15TH APRIL, 2019</p>
-        </div>
-      </div>
-      <div class="news__image4">
-        <div class="news__info">
-          <p class="news__info-text">Travel Trip</p>
-          <h3 class="news__info-title">Tremblant in Canada</h3>
-          <p class="news__info-date">15TH APRIL, 2019</p>
-        </div>
-      </div>
-      <div class="news__image5">
-        <div class="news__info">
-          <p class="news__info-text">Travel Trip</p>
-          <h3 class="news__info-title">Tremblant in Canada</h3>
-          <p class="news__info-date">15TH APRIL, 2019</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="carousel__wrapper">
-    <h2>Carousel</h2>
-    <section class="carousel" aria-label="Gallery">
-      <ol class="carousel__viewport">
-        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper">
-            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
-            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+    </section>
+    <section class="rooms">
+      <div class="rooms__wrapper">
+        <div class="rooms__card">
+          <div class="rooms__card-anim">
+            <h3 class="rooms__anim-title">Double Room</h3>
+            <p class="rooms__anim-price">
+              <span class="rooms__anim-price_span">199</span> /Per Night
+            </p>
+            <p class="rooms__anim-text">
+              Size: 30 ft <br />
+              Capacity: Max persion 5<br />
+              Bed: King Beds<br />
+              Services: Wifi, Television, Bathroom ... <br />
+            </p>
           </div>
-        </li>
-        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-        </li>
-        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-        </li>
-        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-        </li>
-      </ol>
-      <aside class="carousel__navigation">
-        <ol class="carousel__navigation-list">
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+        </div>
+        <div class="rooms__card">
+          <div class="rooms__card-anim">
+            <h3 class="rooms__anim-title">Double Room</h3>
+            <p class="rooms__anim-price">
+              <span class="rooms__anim-price_span">199</span> /Per Night
+            </p>
+            <p class="rooms__anim-text">
+              Size: 30 ft <br />
+              Capacity: Max persion 5<br />
+              Bed: King Beds<br />
+              Services: Wifi, Television, Bathroom ... <br />
+            </p>
+          </div>
+        </div>
+        <div class="rooms__card">
+          <div class="rooms__card-anim">
+            <h3 class="rooms__anim-title">Double Room</h3>
+            <p class="rooms__anim-price">
+              <span class="rooms__anim-price_span">199</span> /Per Night
+            </p>
+            <p class="rooms__anim-text">
+              Size: 30 ft <br />
+              Capacity: Max persion 5<br />
+              Bed: King Beds<br />
+              Services: Wifi, Television, Bathroom ... <br />
+            </p>
+          </div>
+        </div>
+        <div class="rooms__card">
+          <div class="rooms__card-anim">
+            <h3 class="rooms__anim-title">Double Room</h3>
+            <p class="rooms__anim-price">
+              <span class="rooms__anim-price_span">199</span> /Per Night
+            </p>
+            <p class="rooms__anim-text">
+              Size: 30 ft <br />
+              Capacity: Max persion 5<br />
+              Bed: King Beds<br />
+              Services: Wifi, Television, Bathroom ... <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <p class="news__text">Hotels News</p>
+      <h2 class="news__title">Our Blog & Event</h2>
+
+      <div class="news__grid-wrapper">
+        <div class="news__image1">
+          <div class="news__info">
+            <p class="news__info-text">Travel Trip</p>
+            <h3 class="news__info-title">Tremblant in Canada</h3>
+            <p class="news__info-date">15TH APRIL, 2019</p>
+          </div>
+        </div>
+        <div class="news__image2">
+          <div class="news__info">
+            <p class="news__info-text">Travel Trip</p>
+            <h3 class="news__info-title">Tremblant in Canada</h3>
+            <p class="news__info-date">15TH APRIL, 2019</p>
+          </div>
+        </div>
+        <div class="news__image3">
+          <div class="news__info">
+            <p class="news__info-text">Travel Trip</p>
+            <h3 class="news__info-title">Tremblant in Canada</h3>
+            <p class="news__info-date">15TH APRIL, 2019</p>
+          </div>
+        </div>
+        <div class="news__image4">
+          <div class="news__info">
+            <p class="news__info-text">Travel Trip</p>
+            <h3 class="news__info-title">Tremblant in Canada</h3>
+            <p class="news__info-date">15TH APRIL, 2019</p>
+          </div>
+        </div>
+        <div class="news__image5">
+          <div class="news__info">
+            <p class="news__info-text">Travel Trip</p>
+            <h3 class="news__info-title">Tremblant in Canada</h3>
+            <p class="news__info-date">15TH APRIL, 2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="carousel__wrapper">
+      <h2>Carousel</h2>
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4" class="carousel__prev"
+                >Go to last slide</a
+              >
+              <a href="#carousel__slide2" class="carousel__next"
+                >Go to next slide</a
+              >
+            </div>
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide3" class="carousel__next"
+              >Go to next slide</a
+            >
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide4" class="carousel__next"
+              >Go to next slide</a
+            >
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+          <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide1" class="carousel__next"
+              >Go to first slide</a
+            >
           </li>
         </ol>
-      </aside>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button"
+                >Go to slide 1</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button"
+                >Go to slide 2</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button"
+                >Go to slide 3</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
+          </ol>
+        </aside>
+      </section>
     </section>
-  </section>
 
-  <footer class="footer">
-    <div class="footer__sectionOne">
-      <div class="footer__sectionOne-left"></div>
-      <div class="footer__sectionOne-center"></div>
-      <div class="footer__sectionOne-right"></div>
-    </div>
+    <footer class="footer">
+      <div class="footer__sectionOne">
+        <div class="footer__sectionOne-left"></div>
+        <div class="footer__sectionOne-center"></div>
+        <div class="footer__sectionOne-right"></div>
+      </div>
 
-    <div class="footer__sectionTwo"></div>
-  </footer>
-</body>
-
+      <div class="footer__sectionTwo"></div>
+    </footer>
+  </body>
 </html>

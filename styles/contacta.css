@@ -1,0 +1,61 @@
+@import url(colors.css);
+
+html {
+  background: var(--main-blanco);
+}
+
+.nav {
+  background-color: var(--main-negro);
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-right: 42px;
+  font-weight: 600;
+  color: white;
+}
+
+.menu a:hover {
+  color: var(--main-rojo);
+}
+
+.nav ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 27px 0px;
+}
+
+.nav .logo img {
+  max-width: 50%;
+}
+
+/* FOOTER */
+
+.footer {
+  background: var(--main-negro);
+  color: white;
+}
+
+.footer-list li {
+  display: inline-block;
+  padding: 27px 0px;
+}
+
+.footer-list {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.footer .logo img {
+  max-width: 50%;
+}
