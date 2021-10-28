@@ -69,3 +69,11 @@ h1 {
     border: 1px black solid;
     padding: 1%;
 }
+.img1{
+    max-width: 100%;
+}
+
+.img1:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
