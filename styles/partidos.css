@@ -152,18 +152,60 @@ th,tr,td{
 }
 
 
-.bg-6{
-    background-color: var(--main-rojo);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .glitch {
-    color: var(--main-blanco);
+    color: var(--main-rojo);
     font-size: 100px;
     position: relative;
     margin: 0% auto;
     font-family: 'Varela', sans-serif;
  }
-
+/*
 .glitch:after {
     content: attr(data-text);
     position: absolute;
@@ -175,15 +217,15 @@ th,tr,td{
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim 2s infinite linear alternate-reverse;
-}
+}*/
 
 .glitch:before {
     content: attr(data-text);
     position: absolute;
     margin: 0% auto;
-    text-shadow: 3px 0 blue;
+    text-shadow: 3px 0 var(--main-negro);
     color: var(--main-blanco);
-    background: var(--main-rojo);
+    /*background: var(--main-rojo);*/
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
