@@ -173,35 +173,77 @@ th,tr,td{
 
 .box2{
     display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2%;
+    text-align: center;
 }
 
 .ch1{
-    flex: 1;
-    border: 1px solid black;
-    padding: 1%;
+    flex: 2;
+    padding: 3px;
 }
 .ch2{
     flex: 1;
-    border: 1px solid black;
-    padding: 1%;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: var(--main-rojo);
+    font-weight: bold;
+
 }
 .ch3{
-    flex: 1;
-    border: 1px solid black;
-    padding: 1%;
+    flex: 0.2;
+    padding: 3px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: var(--main-gris);
+    text-align: right;
 }
 .ch4{
-    flex: 1;
-    border: 1px solid black;
-    padding: 1%;
+    flex: 0.5;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
+    background-color: var(--main-gris);
 }
 .ch5{
-    flex: 1;
-    border: 1px solid black;
-    padding: 1%;
+    flex: 0.5;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
+    background-color: var(--main-rojo);
+    font-weight: bold;
 }
 .ch6{
-    flex: 1;
-    border: 1px solid black;
-    padding: 1%;
+    flex: 0.5;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
+    background-color: var(--main-gris);
+
+}
+.ch7{
+    flex: 0.2;
+    padding: 3px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    background-color: var(--main-gris);
+    text-align: left;
+}
+.ch8{
+    flex: 2;
+    padding: 3px;
+}
+
+.tit3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: var(--main-rojo);
+    font-size: 50px;
+    border: 1px var(--main-negro) solid;
+    width: 40%;
+    margin: 0% auto;
+    background-image: url("../images/Valorant_Cover_Art1.jpg");
+    border: 3px var(--main-blanco) solid;
+    box-shadow: 2px 2px 22px 2px rgb(66, 64, 64);
 }
