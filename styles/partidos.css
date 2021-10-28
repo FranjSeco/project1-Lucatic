@@ -50,10 +50,9 @@ h1 {
     border: 1px var(--main-negro) solid;
     width: 20%;
     margin: 0% auto;
-}
-
-h1:hover{
-
+    background-image: url("../images/Valorant_Cover_Art1.jpg");
+    border: 3px var(--main-blanco) solid;
+    box-shadow: 2px 2px 22px 2px rgb(66, 64, 64);
 }
 
 .en1{
