@@ -44,6 +44,12 @@ html {
 .footer {
   background: var(--main-negro);
   color: white;
+  padding-top: 40px;
+}
+
+.ft-contact ul {
+  list-style: none;
+  padding-left: 0px;
 }
 
 .footer-list li {
@@ -58,4 +64,8 @@ html {
 
 .footer .logo img {
   max-width: 50%;
+}
+
+.copyright {
+  background: black;
 }
