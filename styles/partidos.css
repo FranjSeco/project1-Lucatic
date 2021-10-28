@@ -1,1 +1,32 @@
 /*Hoja de estilos*/
+body{
+    display: grid;
+}
+
+header{
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+.section1{
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+.section2{
+    grid-column: 1;
+    grid-row: 3;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+footer{
+    grid-column: 1;
+    grid-row: 4;
+    border: 1px black solid;
+    padding: 1%;
+}
