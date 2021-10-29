@@ -314,21 +314,59 @@ th,tr,td{
 
 
 @media only screen and (max-width: 400px)  {
-    .section1{
+    .box1{
         flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .ord1{
+        order: 1;
     }
     .child1{
-        flex: 2;
+        flex: none;
     }
     .child2{
-        flex: 6;
-        padding-right: 3%;
+        flex: 1;
+        margin: 0%;
     }
     .child3{
         flex: 1;
     }
     .child4{
         display: none;
+    }
+    .tit2{
+        margin: 1% auto;
+    }
+
+    .ch1{
+        flex: none;
+    }
+    .ch2{
+        flex: 2;
+    }
+    .ch3{
+        flex: 1;
+    }
+    .ch4{
+        flex: 2;
+    }
+    .ch5{
+        flex: 1;
+    }
+    .ch6{
+        flex: 2;
+    }
+    .ch7{
+        flex: 1;
+    }
+    .ch8{
+        display: none;
+    }
+    .img1{
+        margin-top: 6%;
+    }
+    .tit2{
+        margin-top: 8%;
     }
 
 }
