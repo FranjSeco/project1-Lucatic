@@ -169,6 +169,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 50px 0 80px 0;
   border-bottom: var(--main-rojo) solid 1px;
 }
@@ -474,9 +475,13 @@ a:visited {
 ///////////// BOOTSTRAP ///////////
 /////////////////////////////////// */
 
+.carousel {
+  max-width: 1170px;
+}
+
 .carousel__wrapper {
-  width: 1170px;
-  height: 900px;
+  width: 100%;
+  height: auto;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -492,6 +497,11 @@ a:visited {
   color: var(--main-rojo);
   text-align: center;
 }
+
+.bootsrap__image {
+  width: 700px;
+  height: 500px;
+}
 /* ///////////////////////////////////
 ///////////////////////////////////
 /////////////////////////////////// */
@@ -506,6 +516,10 @@ a:visited {
   .equipo__wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .carousel {
+    max-width: 800px;
+  }
 }
 
 /* MEDIA QUERY 1200 */
@@ -516,7 +530,7 @@ a:visited {
     grid-template-areas:
       'a b'
       'c d'
-      'e f';
+      'e e';
     grid-gap: 20px;
   }
 }
@@ -526,6 +540,10 @@ a:visited {
 @media screen and (max-width: 990px) {
   .main__wrapper {
     width: 80%;
+  }
+
+  .carousel {
+    max-width: 600px;
   }
 }
 
@@ -578,6 +596,18 @@ a:visited {
   .equipo__wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+  .news {
+    padding: 30px 0;
+  }
+  .carousel__wrapper {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  .bootsrap__image {
+    width: 700px;
+    height: auto;
+  }
 }
 
 /* MEDIA QUERY 710 */
@@ -611,5 +641,34 @@ a:visited {
 
   .nav__menu-wrapper {
     display: none;
+  }
+  .carousel {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .about__image-wrapper {
+    width: 320px;
+    height: 320px;
+  }
+  .carousel__wrapper {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+
+  .whatWeDo {
+    padding: 20px 0 30px 0;
+  }
+
+  .whatWeDo__grid-wrapper {
+    width: auto;
+    max-width: 1440px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    margin: 0 auto;
+    background-color: var(--main-rojo);
   }
 }
