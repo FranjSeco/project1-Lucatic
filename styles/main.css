@@ -498,8 +498,9 @@ a:visited {
   text-align: center;
 }
 
-.bootsrap__image {
-  width: 700px;
+.carousel-item,
+.bootstrap__image {
+  width: 900px;
   height: 500px;
 }
 /* ///////////////////////////////////
@@ -515,10 +516,6 @@ a:visited {
 
   .equipo__wrapper {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .carousel {
-    max-width: 800px;
   }
 }
 
@@ -540,10 +537,6 @@ a:visited {
 @media screen and (max-width: 990px) {
   .main__wrapper {
     width: 80%;
-  }
-
-  .carousel {
-    max-width: 600px;
   }
 }
 
@@ -604,9 +597,10 @@ a:visited {
     height: auto;
     padding: 5px;
   }
-  .bootsrap__image {
-    width: 700px;
-    height: auto;
+  .carousel-item,
+  .bootstrap__image {
+    width: 600px;
+    height: 400px;
   }
 }
 
@@ -644,6 +638,13 @@ a:visited {
   }
   .carousel {
     max-width: 500px;
+    padding: 30px;
+  }
+
+  .carousel-item,
+  .bootstrap__image {
+    width: 400px;
+    height: 200px;
   }
 }
 @media screen and (max-width: 440px) {
@@ -670,5 +671,18 @@ a:visited {
     padding: 0;
     margin: 0 auto;
     background-color: var(--main-rojo);
+  }
+
+  .carousel {
+    max-width: 320px;
+    height: 200px;
+    padding: 20px 0;
+    margin: 0 0 30px 0;
+  }
+
+  .carousel-item,
+  .bootstrap__image {
+    width: 320px;
+    height: 200px;
   }
 }
