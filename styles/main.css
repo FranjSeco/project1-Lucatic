@@ -479,13 +479,9 @@ a:visited {
   max-width: 1170px;
 }
 
-.w-100 {
-  width: 100%;
-}
-
 .carousel__wrapper {
   width: 100%;
-  height: 900px;
+  height: auto;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -500,6 +496,11 @@ a:visited {
   font-weight: 300;
   color: var(--main-rojo);
   text-align: center;
+}
+
+.bootsrap__image {
+  width: 700px;
+  height: 500px;
 }
 /* ///////////////////////////////////
 ///////////////////////////////////
@@ -594,6 +595,18 @@ a:visited {
   }
   .equipo__wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .news {
+    padding: 30px 0;
+  }
+  .carousel__wrapper {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  .bootsrap__image {
+    width: 700px;
+    height: auto;
   }
 }
 
