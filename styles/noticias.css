@@ -15,18 +15,38 @@ img {
   margin: 10px;
 }
 
-.col-md-6:hover {
-  /*border:var(--main-rojo) solid 2px;*/
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  border-radius: 25px;
 
-  cursor: pointer;
+    
+    .col-md-6 div{
+    
+        text-align: center;
+        margin: 10px;
+               
+    }
+
+
+.col-md-6:hover{
+    
+    /*border:var(--main-rojo) solid 2px;*/
+    box-shadow:  0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius:25px;
+
+    cursor: pointer;
 }
+  
 
 .col-md-6:hover img {
   opacity: 0.6;
 
   transition: 1s;
+}
+
+.col-md-6:hover img{
+
+  opacity: 0.6;
+
+  transition: 1s;
+
 }
 
 .col-md-6 a {

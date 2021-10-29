@@ -3,7 +3,12 @@
 
 
 
+h1{
 
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
 
 
 .grid{
@@ -26,9 +31,9 @@ a{
 }
 
 a:hover{
-    text-decoration: none;
-    color: var(--main-rojo);
-    font-size:1.5em ;
+    text-decoration:underline;
+    color: red;
+    font-size:1.1em ;
 }
 
 .insisible{
@@ -71,3 +76,16 @@ border-radius:25px;
 
     visibility: visible;
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    img {
+      width: 75%;
+    }
+
+  
+}
+  
