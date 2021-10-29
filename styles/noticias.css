@@ -32,11 +32,17 @@ img {
     border-radius:25px;
 
     cursor: pointer;
-    opacity: 0.6;
-
-    transition: 1s;
+ 
   
 
+
+}
+
+.col-md-6:hover img{
+
+  opacity: 0.6;
+
+  transition: 1s;
 
 }
 
