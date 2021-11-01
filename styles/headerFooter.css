@@ -8,6 +8,10 @@ body {
   background: var(--main-blanco);
 }
 
+#logoNav {
+  width: initial;
+}
+
 .foto-container img {
   width: 100%;
 }
@@ -17,8 +21,9 @@ body {
   border-top: 2px solid var(--main-rojo);
 }
 
-.container-fluid {
+.container-fluid.navbar {
   padding: 0px 0px;
+  margin: 0px;
 }
 
 header .row {
@@ -34,12 +39,20 @@ header {
   justify-content: right;
 }
 
+.navbar-toggler-icon {
+  background: url(../images/hamburguesa.png);
+}
+
 .nav {
   background-color: var(--main-negro);
 }
 
 .nav-link {
   color: white;
+}
+
+.nav-link:active {
+  color: var(--main-rojo);
 }
 
 .nav-link:hover {
@@ -104,6 +117,7 @@ header {
 .footer {
   background: var(--main-negro);
   color: white;
+  width: 100%;
 }
 
 .footer-text .row {

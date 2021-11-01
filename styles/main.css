@@ -36,209 +36,6 @@ body {
   background-color: var(--main-blanco);
 }
 
-a {
-  text-decoration: none;
-}
-a:active,
-a:focus,
-a:visited {
-  color: #000;
-}
-
-<<<<<<< HEAD:styles.css
-/* HEADER */
-
-.header {
-  /* background-color: #fff; */
-  background-color: var(--main-rojo);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact__border {
-  width: 100%;
-  border-bottom: solid 1px #000;
-}
-
-.header__contact {
-  max-width: 1440px;
-  width: 100%;
-  height: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-self: flex-start;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.header__wrapperOne {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header__wrapperTwo {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: auto;
-}
-
-.header__telephone {
-  padding: 0 40px 0 0;
-  border-right: 2px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3rem;
-}
-
-.header__telephone-img {
-  background-image: url(./images/phone-solid.svg);
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  filter: invert(72%) sepia(46%) saturate(369%) hue-rotate(346deg)
-    brightness(91%) contrast(92%);
-}
-
-.header__email {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 40px;
-  margin-right: auto;
-}
-
-.header__email-img {
-  background-image: url(./images/envelope-solid.svg);
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  filter: invert(72%) sepia(46%) saturate(369%) hue-rotate(346deg)
-    brightness(91%) contrast(92%);
-}
-
-.header__icons-wrapper {
-  display: flex;
-  list-style: none;
-  column-gap: 20px;
-}
-
-.icon__wrapper {
-  cursor: pointer;
-}
-
-.icon__facebook {
-  background-image: url(./images/facebook-brands.svg);
-  width: 20px;
-  height: 20px;
-}
-
-.icon__twitter {
-  background-image: url(./images/twitter-brands.svg);
-  width: 20px;
-  height: 20px;
-}
-.icon__amazon {
-  background-image: url(./images/amazon-brands.svg);
-  width: 20px;
-  height: 20px;
-}
-.icon__instagram {
-  background-image: url(./images/instagram-brands.svg);
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-}
-
-.header__booking {
-  text-transform: uppercase;
-  font-weight: 900;
-  color: #fff;
-  background-color: #dfa974;
-  padding: 20px;
-  margin: 0 20px;
-}
-
-.header__language {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70px;
-}
-.header__language-flag {
-  border-radius: 50%;
-}
-
-.heander__lang-selector {
-  width: 40px;
-  border: none;
-}
-
-/* NAV */
-
-.nav {
-  max-width: 1440px;
-  width: 100%;
-  height: 5rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav__logo {
-  width: auto;
-  cursor: pointer;
-  margin-right: auto;
-}
-
-.nav__menu-wrapper {
-  list-style: none;
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 500;
-  margin-right: 50px;
-}
-
-.nav__menu-item {
-  position: relative;
-}
-
-.nav__menu-item:hover {
-  cursor: pointer;
-}
-
-.nav__menu-item:after {
-  content: "";
-  width: 0;
-  height: 3px;
-  position: absolute;
-  bottom: -5px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.nav__menu-item:hover:after {
-  width: 50px;
-  background-color: #dfa974;
-  cursor: pointer;
-}
-
-.nav__search {
-  background-image: url(./images/magnifying-glass-solid.svg);
-  width: 20px;
-  height: 20px;
-  margin: 0;
-}
-
-=======
->>>>>>> 8631b59a01986bc51378a7cea8e66620fb291b27:styles/main.css
 /* MAIN */
 
 .main {
@@ -547,14 +344,9 @@ a:visited {
   width: 1170px;
   display: grid;
   grid-template-areas:
-<<<<<<< HEAD:styles.css
     "a b c"
-    "d d e";
-=======
-    'a b c'
-    'd d d'
-    'e e e';
->>>>>>> 8631b59a01986bc51378a7cea8e66620fb291b27:styles/main.css
+    "d d d"
+    "e e e";
   grid-gap: 20px;
 }
 
@@ -724,15 +516,9 @@ a:visited {
     width: 95%;
     display: grid;
     grid-template-areas:
-<<<<<<< HEAD:styles.css
       "a b"
       "c d"
-      "e f";
-=======
-      'a b'
-      'c d'
-      'e e';
->>>>>>> 8631b59a01986bc51378a7cea8e66620fb291b27:styles/main.css
+      "e e";
     grid-gap: 20px;
   }
 }
