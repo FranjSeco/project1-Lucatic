@@ -52,11 +52,23 @@
     height: 530px;
     text-align: center;
     box-shadow: 2px 2px 22px 2px rgb(66, 64, 64);
-    color: transparent;
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-right: 2%;
     margin-left: 2%;
+}
+.box1 .enl{
+    text-decoration: none;
+    color: transparent;
+}
+.box1:hover .enl{
+    text-decoration: none;
+    color: var(--main-negro);
+    transition: 0.8s;
+}
+.box1:visited .enl{
+    text-decoration: none;
+    color: transparent;
 }
 .box1:hover{
     transition: 0.8s;
@@ -113,7 +125,19 @@
     visibility: visible;
     transition: 0.8s;
 }
-
+.box2 .enl{
+    text-decoration: none;
+    color: transparent;
+}
+.box2:hover .enl{
+    text-decoration: none;
+    color: var(--main-negro);
+    transition: 0.8s;
+}
+.box2:visited .enl{
+    text-decoration: none;
+    color: transparent;
+}
 
 /*-----------------------------------------------------------*/
 .box3{
@@ -136,6 +160,19 @@
 .box3:hover .icons{
     visibility: visible;
     transition: 0.8s;
+}
+.box3 .enl{
+    text-decoration: none;
+    color: transparent;
+}
+.box3:hover .enl{
+    text-decoration: none;
+    color: var(--main-negro);
+    transition: 0.8s;
+}
+.box3:visited .enl{
+    text-decoration: none;
+    color: transparent;
 }
 
 /*-----------------------------------------------------------*/
@@ -165,6 +202,19 @@
     visibility: visible;
     transition: 0.8s;
 }
+.box4 .enl{
+    text-decoration: none;
+    color: transparent;
+}
+.box4:hover .enl{
+    text-decoration: none;
+    color: var(--main-negro);
+    transition: 0.8s;
+}
+.box4:visited .enl{
+    text-decoration: none;
+    color: transparent;
+}
 
 /*-----------------------------------------------------------*/
 .box5{
@@ -188,6 +238,20 @@
     visibility: visible;
     transition: 0.8s;
 }
+.box5 .enl{
+    text-decoration: none;
+    color: transparent;
+}
+.box5:hover .enl{
+    text-decoration: none;
+    color: var(--main-negro);
+    transition: 0.8s;
+}
+.box5:visited .enl{
+    text-decoration: none;
+    color: transparent;
+}
+
 
 @media only screen and (max-width: 800px)  {
     .box3{
