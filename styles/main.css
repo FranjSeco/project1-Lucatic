@@ -484,6 +484,8 @@ body {
 
 .whatWeDo__card:hover {
   background-color: var(--main-blanco);
+  color: var(--main-rojo);
+  cursor: pointer;
 }
 
 .whatWeDo__card-title {
