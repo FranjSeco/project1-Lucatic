@@ -1,50 +1,99 @@
+/*Hoja de estilos*/
 @import url(./colors.css);
 
-.cuerpo{
+.cuer{
     display: grid;
 }
-.grid1{
+.cabec{
     grid-column: 1;
     grid-row: 1;
     border: black 1px solid;
-    padding: 2%;
-    margin-bottom: 4%;
+    padding: 2px;
 }
-.grid2{
+.caja1{
     grid-column: 1;
     grid-row: 2;
-    margin: 0% auto;
-    margin-top: 2%;
-    width: 35%;
+    margin: 40px auto 20px auto;
 }
-.grid3{
+.cuadr{
     grid-column: 1;
     grid-row: 3;
+    
 }
-.grid4{
-    margin-top: 2%;
+.caja4{
     grid-column: 1;
     grid-row: 4;
 }
-.grid5{
-    margin-top: 2%;
+.foot{
     grid-column: 1;
     grid-row: 5;
     border: black 1px solid;
+    padding: 2px;
+}
+
+.nombre{
+    box-shadow: 2px 2px 22px 2px rgb(66, 64, 64);
+    width: 330px;
+    height: 530px;
+}
+
+.contenedorarriba{
+    background-color: var(--main-negro);
+}
+
+.icons1{
+    text-decoration: none;
+}
+.enlace1{
+    text-decoration: none;
+    color: var(--main-blanco);
+}
+
+.tabla1{
+    margin: 0% auto;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 50%;
+}
+.celda1{
+    background-color: var(--main-negro);
+    color: var(--main-blanco);
+    width: 15%;
+    border: black 1px solid;
+    padding: 2%;
+    
+}
+.celda2{
+    background-color: var(--main-oscuro);
+    color: var(--main-blanco);
+    width: 15%;
+    border: var(--main-rojo) 1px solid;
+    padding: 2%;
+}
+.celda{
+    width: 15%;
+    border: black 1px solid;
+    padding: 2%;
+    background-color: var(--main-negro);
+    color: var(--main-gris);;
+}
+.celda3{
+    border: var(--main-rojo) 1px solid;
     padding: 2%;
 }
 
-.section__title{
-    margin-top: 4%;
-    width: 40%;
+.bio{
+    font-weight: bold;
+    font-size: 21px;
 }
 
-
-/*----------------------------------------------------------------------------*/
-.grid3{
+/*--------------------------------------------------------------*/
+.flex1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .box1{
@@ -102,9 +151,7 @@
 .names{
     padding-top: 40%;
 }
-
-
-/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
 .box2{
     background-image: url(../images/equipo/equipo2/Dani.jpg);
     width: 330px;
@@ -177,11 +224,6 @@
 }
 
 /*-----------------------------------------------------------*/
-.grid4{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .box4{
     background-image: url(../images/equipo/equipo2/Noe.jpg);
     width: 330px;
@@ -218,6 +260,7 @@
 }
 
 /*-----------------------------------------------------------*/
+
 .box5{
     background-image: url(../images/equipo/equipo2/Antonio.jpg);
     width: 330px;
@@ -253,31 +296,24 @@
     color: transparent;
 }
 
-
-@media only screen and (max-width: 800px)  {
-    .box3{
-        margin-top: 2%;
-    }
-    .grid2{
-        width: 70%;
-    }
+.black{
+    background-color: var(--main-negro);
+    margin-top: 2%;
 }
 
-@media only screen and (max-width: 400px)  {
-    .grid2{
-        width: 70%;
-    }
-    .grid4{
-        margin-top: 0%;
-    }
-    .box1,.box2,.box3,.box4,.box5{
-        margin-right: 0%;
-        margin-left: 0%;
-        margin-top: 2%;
-    }
+.tit2{
+    color: var(--main-rojo);
+    text-align: center;
+    font-size: 50px;
 }
 
+.name{
+    color: var(--main-blanco);
+}
 
-
-
+.cuadr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
