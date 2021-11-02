@@ -3,8 +3,8 @@
 
 * {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 * {
@@ -34,66 +34,6 @@ body {
   align-items: center;
   margin: 0 auto;
   background-color: var(--main-blanco);
-}
-
-/* MAIN */
-
-.main {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../images/Valorant_Cover_Art.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  position: relative;
-}
-.main__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.main__wrapper {
-  width: 60%;
-  height: 90%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-}
-
-.main__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 555px;
-}
-
-.main__title {
-  font-size: 95px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.main__info {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  z-index: 10;
-}
-
-.main__btn:hover {
-  cursor: pointer;
 }
 
 /* ABOUT */
@@ -153,59 +93,41 @@ body {
   align-self: center;
 }
 
-/* What we do */
+/* ///////////////////////////////////
+///////////// BOOTSTRAP ///////////
+/////////////////////////////////// */
 
-.whatWeDo {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 50px 0 80px 0;
-  border-bottom: var(--main-rojo) solid 1px;
+.carousel {
+  max-width: 1170px;
 }
 
-.whatWeDo__title-wrapper {
-  width: auto;
+.carousel__wrapper {
+  width: 100%;
+  height: auto;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+}
+
+.carousel__title {
+  font-size: 44px;
+  line-height: 58px;
+  margin: 10px 0 36px;
+  font-weight: 300;
+  color: var(--main-rojo);
   text-align: center;
 }
 
-.whatWeDo__grid-wrapper {
-  width: auto;
-  max-width: 1440px;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0;
-  margin: 0 auto;
-  background-color: var(--main-rojo);
+.carousel-item,
+.bootstrap__image {
+  width: 900px;
+  height: 500px;
 }
-
-.whatWeDo__card {
-  width: 100%;
-  padding: 30px 35px 18px;
-  background-color: var(--main-rojo);
-}
-
-.whatWeDo__card:hover {
-  background-color: var(--main-blanco);
-  cursor: pointer;
-}
-
-.whatWeDo__card-title {
-  margin: 10px 0 15px;
-}
-
-.whatWeDo__card-image {
-  width: 40px;
-  height: 40px;
-  filter: invert(72%) sepia(46%) saturate(369%) hue-rotate(346deg)
-    brightness(91%) contrast(92%);
-}
+/* ///////////////////////////////////
+///////////////////////////////////
+/////////////////////////////////// */
 
 /* equipo */
 
@@ -344,9 +266,9 @@ body {
   width: 1170px;
   display: grid;
   grid-template-areas:
-    "a b c"
-    "d d d"
-    "e e e";
+    'a b c'
+    'd d d'
+    'e e e';
   grid-gap: 20px;
 }
 
@@ -456,47 +378,124 @@ body {
   box-shadow: rgba(0, 0, 0, 0.5) 1.5px 1.5px 2px;
 }
 
+/* MAIN */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/Valorant_Cover_Art.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+}
+.main__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main__wrapper {
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 555px;
+}
+
+.main__title {
+  font-size: 95px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main__info {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.main__btn:hover {
+  cursor: pointer;
+}
+
 /*  MAP */
 
 .map {
   padding: 40px;
 }
 
-/* ///////////////////////////////////
-///////////// BOOTSTRAP ///////////
-/////////////////////////////////// */
+/* What we do */
 
-.carousel {
-  max-width: 1170px;
+.whatWeDo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0 80px 0;
+  border-bottom: var(--main-rojo) solid 1px;
 }
 
-.carousel__wrapper {
-  width: 100%;
-  height: auto;
-  padding: 80px;
+.whatWeDo__title-wrapper {
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.carousel__title {
-  font-size: 44px;
-  line-height: 58px;
-  margin: 10px 0 36px;
-  font-weight: 300;
-  color: var(--main-rojo);
+  align-content: center;
   text-align: center;
 }
 
-.carousel-item,
-.bootstrap__image {
-  width: 900px;
-  height: 500px;
+.whatWeDo__grid-wrapper {
+  width: auto;
+  max-width: 1440px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  margin: 0 auto;
+  background-color: var(--main-rojo);
 }
-/* ///////////////////////////////////
-///////////////////////////////////
-/////////////////////////////////// */
+
+.whatWeDo__card {
+  width: 100%;
+  padding: 30px 35px 18px;
+  background-color: var(--main-rojo);
+}
+
+.whatWeDo__card:hover {
+  background-color: var(--main-blanco);
+}
+
+.whatWeDo__card-title {
+  margin: 10px 0 15px;
+}
+
+.whatWeDo__card-image {
+  width: 40px;
+  height: 40px;
+  filter: invert(72%) sepia(46%) saturate(369%) hue-rotate(346deg)
+    brightness(91%) contrast(92%);
+}
 
 /* MEDIA QUERY 1280 */
 
@@ -516,9 +515,9 @@ body {
     width: 95%;
     display: grid;
     grid-template-areas:
-      "a b"
-      "c d"
-      "e e";
+      'a b'
+      'c d'
+      'e e';
     grid-gap: 20px;
   }
 }
@@ -611,12 +610,12 @@ body {
     width: 95%;
     display: grid;
     grid-template-areas:
-      "a"
-      "b"
-      "c"
-      "d"
-      "e"
-      "f";
+      'a'
+      'b'
+      'c'
+      'd'
+      'e'
+      'f';
     grid-gap: 20px;
   }
 
