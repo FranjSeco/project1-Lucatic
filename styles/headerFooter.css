@@ -18,7 +18,6 @@ body {
 
 .foto-container {
   max-width: 1806px;
-  border-top: 2px solid var(--main-rojo);
 }
 
 .container-fluid.navbar {
@@ -33,6 +32,11 @@ header .row {
 
 header {
   background: var(--main-negro);
+  border-bottom: 2px solid var(--main-rojo);
+  min-width: 100%;
+}
+
+header .container {
 }
 
 #navbarTogglerDemo01 {
@@ -40,7 +44,11 @@ header {
 }
 
 .navbar-toggler {
-  background: url(../images/hamburguesa.png);
+  color: var(--main-rojo);
+}
+
+.navbar-toggler:focus {
+  box-shadow: var(--main-rojo) 0px 0px 0px 3px;
 }
 
 .nav {
