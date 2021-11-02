@@ -182,6 +182,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 2%;
 }
 .box4 {
   background-image: url(../images/equipo/equipo2/Noe.jpg);
