@@ -17,7 +17,7 @@ body {
 }
 
 .foto-container {
-  max-width: 1806px;
+  min-width: 100%;
 }
 
 .container-fluid.navbar {
