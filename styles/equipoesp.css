@@ -123,7 +123,7 @@
 }
 .box1:hover .enl{
     text-decoration: none;
-    color: var(--main-negro);
+    color: var(--main-blanco);
     transition: 0.8s;
 }
 .box1:visited .enl{
@@ -133,7 +133,7 @@
 .box1:hover{
     transition: 0.8s;
     background-image: url(../images/equipo/equipo2/Guille1.png);
-    color: var(--main-negro);
+    color: var(--main-blanco);
 }
 
 .box1:hover .icons{
@@ -176,7 +176,7 @@
 .box2:hover{
     transition: 0.8s;
     background-image: url(../images/equipo/equipo2/Dani1.png);
-    color: var(--main-negro);
+    color: var(--main-blanco);
 }
 
 .box2:hover .icons{
@@ -189,7 +189,7 @@
 }
 .box2:hover .enl{
     text-decoration: none;
-    color: var(--main-negro);
+    color: var(--main-blanco);
     transition: 0.8s;
 }
 .box2:visited .enl{
@@ -212,7 +212,7 @@
 .box3:hover{
     transition: 0.8s;
     background-image: url(../images/equipo/equipo2/Fran1.png);
-    color: var(--main-negro);
+    color: var(--main-blanco);
 }
 
 .box3:hover .icons{
@@ -225,7 +225,7 @@
 }
 .box3:hover .enl{
     text-decoration: none;
-    color: var(--main-negro);
+    color: var(--main-blanco);
     transition: 0.8s;
 }
 .box3:visited .enl{
@@ -248,7 +248,7 @@
 .box4:hover{
     transition: 0.8s;
     background-image: url(../images/equipo/equipo2/Noe1.png);
-    color: var(--main-negro);
+    color: var(--main-blanco);
 }
 
 .box4:hover .icons{
@@ -261,7 +261,7 @@
 }
 .box4:hover .enl{
     text-decoration: none;
-    color: var(--main-negro);
+    color: var(--main-blanco);
     transition: 0.8s;
 }
 .box4:visited .enl{
@@ -285,7 +285,7 @@
 .box5:hover{
     transition: 0.8s;
     background-image: url(../images/equipo/equipo2/Antonio1.png);
-    color: var(--main-negro);
+    color: var(--main-blanco);
 }
 
 .box5:hover .icons{
@@ -298,7 +298,7 @@
 }
 .box5:hover .enl{
     text-decoration: none;
-    color: var(--main-negro);
+    color: var(--main-blanco);
     transition: 0.8s;
 }
 .box5:visited .enl{
