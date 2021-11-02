@@ -1,5 +1,33 @@
 @import url(colors.css);
 
+
+
+#exampleCheck1 {
+  width: 25px;
+  margin-right: 10px;
+}
+
+
+#fullForm {
+  height: 551px;
+  justify-content: space-between;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mapa {
+  filter: grayscale(100%);
+}
+
+
+
+
+
+
 .check {
   display: flex;
 }
@@ -88,26 +116,6 @@
 
 
 
-#exampleCheck1 {
-  width: 25px;
-  margin-right: 10px;
-}
-
-
-#fullForm {
-  height: 551px;
-  justify-content: space-between;
-}
-
-#links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#mapa {
-  filter: grayscale(100%);
-}
 
 
 
