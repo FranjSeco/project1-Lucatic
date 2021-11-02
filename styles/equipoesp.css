@@ -334,3 +334,65 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .gridm1{
+
+        flex-wrap: wrap;
+
+        flex-direction: column;
+
+  }
+
+  .gridmedio{
+
+    justify-content: center;
+
+  }
+
+  .cuer1{
+
+    padding-left: 18%;
+
+  }
+
+  .tabla1{
+
+      width: 500px;
+
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .gridm1{
+
+        flex-wrap: wrap;
+
+        flex-direction: column;
+
+  }
+
+  .gridmedio{
+
+    padding-left: 0%;
+
+  }
+
+  .cuer1{
+
+    padding-left: 22%;
+
+  }
+
+  .tabla1{
+
+      width: 500px;
+
+  }
+
+}
