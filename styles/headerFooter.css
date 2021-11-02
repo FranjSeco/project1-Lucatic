@@ -8,16 +8,22 @@ body {
   background: var(--main-blanco);
 }
 
+header {
+  background: var(--main-negro);
+  border-bottom: 2px solid var(--main-rojo);
+  min-width: 100%;
+}
+
 #logoNav {
   width: initial;
 }
 
-.foto-container img {
-  width: 100%;
+#navbarDropdown:focus {
+  color: var(--main-rojo);
 }
 
-.foto-container {
-  min-width: 100%;
+#navbarTogglerDemo01 {
+  justify-content: right;
 }
 
 .container-fluid.navbar {
@@ -25,102 +31,41 @@ body {
   margin: 0px;
 }
 
-header .row {
-  padding-left: 0px;
-  padding-right: 0px;
+.copyright {
+  background: black;
 }
 
-header {
-  background: var(--main-negro);
-  border-bottom: 2px solid var(--main-rojo);
-  min-width: 100%;
+.contact-info {
+  padding-top: 20px;
 }
 
-header .container {
-}
-
-#navbarTogglerDemo01 {
-  justify-content: right;
-}
-
-.navbar-toggler {
-  color: var(--main-rojo);
-}
-
-.navbar-toggler:focus {
-  box-shadow: var(--main-rojo) 0px 0px 0px 3px;
-}
-
-.nav {
-  background-color: var(--main-negro);
-}
-
-.nav-link {
-  color: white;
-}
-
-.nav-link:active {
-  color: var(--main-rojo);
-}
-
-.nav-link:hover {
-  color: var(--main-rojo);
-}
-
-.navbar-toggler:focus {
-  outline: 0;
-}
-
-.navbar-toggler-icon {
-  color: var(--main-rojo);
-}
-
-.navbar-nav {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.main-menu {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-
-.menu a {
-  text-decoration: none;
-  margin-right: 42px;
-  font-weight: 600;
-  color: white;
-}
-
-.menu a:hover {
-  color: var(--main-rojo);
-}
-
-.menu-list {
-  list-style-type: none;
+.contact-info p:last-child {
   margin-bottom: 0px;
 }
 
-.nav .row {
-  height: 70px;
-  align-content: center;
+.contact-info a {
+  color: var(--main-rojo);
 }
 
-.menu li {
-  display: inline-block;
+.dropdown-item {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.nav .logo img {
-  margin-top: auto;
-  margin-bottom: auto;
+.dropdown-item:active {
+  background: var(--main-rojo);
 }
 
-.nav .main-menu {
-  height: 100%;
+.dropdown-menu.show {
+  border-radius: 0px;
+  background: var(--main-negro);
+  padding: 0px;
 }
 
-/* FOOTER */
+.dropdown-menu li:first-child {
+  border-bottom: 1px solid rgb(54, 54, 54);
+}
 
 .footer {
   background: var(--main-negro);
@@ -157,18 +102,6 @@ header .container {
   padding-bottom: 60px;
 }
 
-.contact-info {
-  padding-top: 20px;
-}
-
-.contact-info p:last-child {
-  margin-bottom: 0px;
-}
-
-.contact-info a {
-  color: var(--main-rojo);
-}
-
 .ft-newslatter p {
   padding-top: 20px;
 }
@@ -201,16 +134,12 @@ header .container {
   height: 244.68px;
 }
 
-.copyright {
-  background: black;
+.foto-container img {
+  width: 100%;
 }
 
-.last-contact {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-
-  justify-content: space-between;
+.foto-container {
+  min-width: 100%;
 }
 
 .fa-social {
@@ -258,13 +187,100 @@ header .container {
   cursor: pointer;
 }
 
+header .row {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.last-contact {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-right: 42px;
+  font-weight: 600;
+  color: white;
+}
+
+.menu a:hover {
+  color: var(--main-rojo);
+}
+
+.menu-list {
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.navbar-toggler {
+  color: var(--main-rojo);
+}
+
+.navbar-toggler:focus {
+  box-shadow: var(--main-rojo) 0px 0px 0px 3px;
+}
+
+.nav {
+  background-color: var(--main-negro);
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:active {
+  color: var(--main-rojo);
+}
+
+.nav-link:hover {
+  color: var(--main-rojo);
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar-toggler-icon {
+  color: var(--main-rojo);
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav .row {
+  height: 70px;
+  align-content: center;
+}
+
+.nav .logo img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav .main-menu {
+  height: 100%;
+}
+
 @media (max-width: 992) {
   .navbar-nav {
     padding-top: 10px;
   }
-}
-
-@media (max-width: 1190px) {
 }
 
 @media (max-width: 982px) {

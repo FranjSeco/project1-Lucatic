@@ -11,9 +11,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/headerFooter.css" />
 
     <link rel="stylesheet" href="styles/contacta.css" />
+
+    <link rel="stylesheet" href="styles/headerFooter.css" />
 
     <link
       rel="stylesheet"
@@ -47,12 +48,17 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li><a class="nav-link" href="index-EN.html">Home</a></li>
-                  <li><a class="nav-link" href="equipo1-EN.html">Equipo</a></li>
-                  <li><a class="nav-link" href="partidos-EN.html">Partidas</a></li>
-                  <li><a class="nav-link" href="noticias-EN.html">Noticias</a></li>
+                  <li><a class="nav-link" href="equipo1-EN.html">Team</a></li>
                   <li>
-                    <a class="nav-link" href="contacta-EN.html" id="ultimaOpcion"
-                      >Contacta</a
+                    <a class="nav-link" href="partidos-EN.html">Matches</a>
+                  </li>
+                  <li><a class="nav-link" href="noticias-EN.html">News</a></li>
+                  <li>
+                    <a
+                      class="nav-link"
+                      href="contacta-EN.html"
+                      id="ultimaOpcion"
+                      >Contact</a
                     >
                   </li>
                   <li class="nav-item dropdown">
@@ -64,12 +70,18 @@
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      Idiomas
+                      Language
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="contacta-EN.html">Ingles</a></li>
                       <li>
-                        <a class="dropdown-item" href="contacta.html">Español</a>
+                        <a class="dropdown-item" href="contacta-En.html"
+                          >English</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="contacta.html"
+                          >Spanish</a
+                        >
                       </li>
                     </ul>
                   </li>
@@ -83,59 +95,54 @@
 
     <div class="container form">
       <h1>Contact Team Luca-Tic</h1>
-      <br>
-      <div class="row " id="fullForm">
+      <br />
+      <div class="row" id="fullForm">
         <div class="col-lg-7">
           <div class="container formulario">
             <form class="row justify-content-evenly pt-4">
               <div class="col-sm-6">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label"
-                    >Nombre</label
+                    >Name</label
                   >
                   <input
                     type="text"
                     class="form-control"
                     id="exampleInputEmail1"
-                    
                   />
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label"
-                    >Apellido</label
+                    >Last name</label
                   >
                   <input
                     type="text"
                     class="form-control"
                     id="exampleInputEmail2"
-                   
                   />
                 </div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Apellido</label
-                >
+                <label for="exampleInputEmail1" class="form-label">Email</label>
                 <input
                   type="text"
                   class="form-control"
                   id="exampleInputEmail3"
-                
                 />
               </div>
               <div class="mb-3">
-                <label class="form-label">Razon de contacto</label>
+                <label class="form-label">Choose a topic</label>
                 <select class="form-select">
-                  <option value="consulta">Consulta general</option>
-                  <option value="prensa">Prensa/Medios de comunicacion</option>
-                  <option value="error">Errores en el sistema</option>
+                  <option value="consulta">General inquiry</option>
+                  <option value="prensa">Press/Media</option>
+                  <option value="error">System bugs</option>
                 </select>
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label"
-                  >Comentarios extras</label
+                  >Comments</label
                 >
                 <textarea
                   class="form-control"
@@ -144,7 +151,7 @@
                 ></textarea>
               </div>
 
-              <h5>Consentiemiento de uso de datos</h5>
+              <h5>Data Processing Consent</h5>
               <div class="mb-3">
                 <ul>
                   <li>
@@ -155,9 +162,9 @@
                         id="exampleCheck1"
                       />
                       <label class="form-check-label" for="exampleCheck1"
-                        >Con el uso de este formulario aseguras el
-                        almacenamiento y uso libre de tus datos conforme a
-                        nuestras politicas de privacidad</label
+                        >By using this form you agree with the storage and
+                        handling of your data by this website according to our
+                        Privacy policy</label
                       >
                     </div>
                   </li>
@@ -170,32 +177,35 @@
           <div class="links">
             <div class="container" id="linkContainer">
               <div class="row">
-                <i class="fab fa-twitter "></i>
-                
+                <i class="fab fa-twitter"></i>
               </div>
               <div class="row">
-                
                 <i class="fab fa-instagram"></i>
               </div>
               <div class="row">
-                
                 <i class="fab fa-twitch"></i>
               </div>
               <div class="row">
-                
                 <i class="fab fa-facebook"></i>
               </div>
               <div class="row">
-                
                 <i class="fab fa-youtube"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
     </div>
-    <iframe id="mapa" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&height=600&hl=es&q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe>
+    <iframe
+      id="mapa"
+      width="100%"
+      height="600"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://maps.google.com/maps?width=100%25&height=600&hl=es&q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+    ></iframe>
 
     <footer class="footer">
       <div class="container">
