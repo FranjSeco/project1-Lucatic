@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="./styles/noticias.css" />
     <link rel="stylesheet" href="styles/headerFooter.css" />
+    <link rel="stylesheet" href="./styles/globalstyles.css" />
 
     <link
       rel="stylesheet"
@@ -23,33 +24,73 @@
     <title>Noticias</title>
   </head>
 
-  
-
-
-
-
-  <header></header>
-
-
-  <h2 class="section__title">NOTICIAS</h2>
-
-
-  <div class="container-fluid">
-
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="imageneNoti"> <img src="./images/noticias/noticiaImagen1.jpeg" alt=""></div>
-        <div>
-          <h3> <a href="./index.html">Bug en Valorant permite romper el muro de Sage sin disparar</a></h3>
-          <p>Normalmente cuando ponemos el muro con Sage en Valorant es para o bien frenar un ataque express del enemigo
-            o para conseguir información en caso de que hagan ruido o disparen para romperlo. Sin embargo, en las
-            últimas horas ha sido el creador de contenido LotharHS, el que se ha hecho eco de esto.</p>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid navbar">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-hamburger"></i>
+              </button>
+              <img id="logoNav" src="images/logoNav.png" alt="" />
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li><a class="nav-link" href="index.html">Home</a></li>
+                  <li><a class="nav-link" href="equipo1.html">Equipo</a></li>
+                  <li><a class="nav-link" href="partidos.html">Partidas</a></li>
+                  <li><a class="nav-link" href="noticias.html">Noticias</a></li>
+                  <li>
+                    <a class="nav-link" href="contacta.html" id="ultimaOpcion"
+                      >Contacta</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Idiomas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="noticias-en.html">Ingles</a></li>
+                      <li>
+                        <a class="dropdown-item" href="noticias.html">Español</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
+  
+
+ 
+  
+  
+
     <div class="container-fluid">
+      <div class="container">
+        <h2 class="section__title">Noticias</h2>
+      </div>
+   
       <div class="row">
+   
         <div class="col-md-6">
           <div class="imagenes">
             <img src="./images/noticias/noticiaImagen1.jpeg" alt="" />
