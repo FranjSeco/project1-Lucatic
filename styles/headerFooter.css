@@ -12,6 +12,30 @@ body {
   width: initial;
 }
 
+#navbarDropdown:focus {
+  color: var(--main-rojo);
+}
+
+.dropdown-item {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-item:active {
+  background: var(--main-rojo);
+}
+
+.dropdown-menu.show {
+  border-radius: 0px;
+  background: var(--main-negro);
+  padding: 0px;
+}
+
+.dropdown-menu li:first-child {
+  border-bottom: 1px solid rgb(54, 54, 54);
+}
+
 .foto-container img {
   width: 100%;
 }

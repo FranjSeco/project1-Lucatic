@@ -44,7 +44,7 @@ footer {
   color: var(--main-rojo);
   font-size: 50px;
   border: 1px var(--main-negro) solid;
-  width: 20%;
+  width: max-content;
   margin: 0% auto;
   background-image: url("../images/Valorant_Cover_Art1.jpg");
   box-shadow: 2px 2px 22px 2px rgb(66, 64, 64);
@@ -234,12 +234,12 @@ td {
 
 .tit1-div {
   margin: 0% auto;
-  width: 20%;
+  width: max-content;
 }
 
 .tit1-div1 {
   margin: 0% auto;
-  width: 40%;
+  width: max-content;
 }
 
 .box3 {
@@ -291,12 +291,12 @@ td {
 
   .tit1-div {
     margin: 0% auto;
-    width: 20%;
+    width: max-content;
   }
 
   .tit1-div1 {
     margin: 0% auto;
-    width: 40%;
+    width: max-content;
   }
 
   .box3 {
@@ -309,7 +309,7 @@ td {
 
   @media only screen and (max-width: 1300px) {
     .tit1-div {
-      width: 30%;
+      width: max-content;
     }
     .tit1-div1 {
     }
@@ -317,10 +317,10 @@ td {
 
   @media only screen and (max-width: 700px) {
     .tit1-div {
-      width: 50%;
+      width: max-content;
     }
     .tit1-div1 {
-      width: 50%;
+      width: max-content;
     }
   }
 
@@ -380,10 +380,10 @@ td {
       margin-top: 8%;
     }
     .tit1-div {
-      width: 70%;
+      width: max-content;
     }
     .tit1-div1 {
-      width: 70%;
+      width: max-content;
     }
   }
 
@@ -443,10 +443,10 @@ td {
       margin-top: 8%;
     }
     .tit1-div {
-      width: 70%;
+      width: max-content;
     }
     .tit1-div1 {
-      width: 70%;
+      width: max-content;
     }
   }
 }
